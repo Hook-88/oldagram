@@ -35,6 +35,10 @@ body {
   background-color: white;
 }
 
+.post {
+  margin-bottom: 20px;
+}
+
 .post header {
   padding: 15px;
   display: flex;
@@ -47,8 +51,19 @@ body {
 .post main {
   width: 375px;
   height: 375px;
-  background: url("./images/post-vangogh.jpg");
   background-size: cover;
+}
+
+.post-image-vincey1853 {
+  background: url("./images/post-vangogh.jpg");
+}
+
+.post-image-gus1819 {
+  background: url("./images/post-courbet.jpg");
+}
+
+.post-image-jd1735 {
+  background: url("./images/post-ducreux.jpg");
 }
 
 .bold-text {
