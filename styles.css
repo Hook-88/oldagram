@@ -69,6 +69,10 @@ body {
   width: 23px;
 }
 
+.icons-container img:hover {
+  opacity: 50%;
+}
+
 footer.white-bg {
   padding-top: 20px;
   padding-bottom: 1px;
