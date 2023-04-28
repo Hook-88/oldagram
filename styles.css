@@ -1,10 +1,15 @@
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  background-color: #F5F5F5;
 }
 
 .container {
   width: 375px;
   margin: 0 auto;
+  background-color: white;
+  padding: 10px 15px 10px 15px;
 }
 
 .logo-img {
@@ -21,6 +26,28 @@ header div.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px 17px 15px;
+  padding: 5px 15px 5px 15px;
   border-bottom: 1px solid #C6C6C6;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-header-text p{
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.right-margin {
+  margin-right: 10px;
 }
