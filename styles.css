@@ -8,7 +8,6 @@ body {
 .main-container {
   width: 375px;
   margin: 0 auto;
-  border: 2px dotted red;
 }
 
 .logo-oldagram-img {
@@ -45,10 +44,32 @@ body {
   margin-right: 15px;
 }
 
+.post main {
+  width: 375px;
+  height: 375px;
+  background: url("./images/post-vangogh.jpg");
+  background-size: cover;
+}
+
 .bold-text {
   font-weight: 700;
 }
 
 .poster-info p {
   margin: 0;
+}
+
+.icons-container {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container img {
+  width: 23px;
+}
+
+footer.white-bg {
+  padding-top: 20px;
+  padding-bottom: 1px;
 }
