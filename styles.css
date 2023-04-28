@@ -35,3 +35,20 @@ body {
 .white-bg {
   background-color: white;
 }
+
+.post header {
+  padding: 15px;
+  display: flex;
+}
+
+.post .avatar-img {
+  margin-right: 15px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.poster-info p {
+  margin: 0;
+}
